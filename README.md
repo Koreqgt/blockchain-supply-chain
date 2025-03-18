@@ -94,7 +94,11 @@ BLOCKCHAIN-SUPPLY-CHAIN/
 If you want to test locally with Hardhat’s built-in node:
 
 ```bash
-npx hardhat node
+npx hardhat node (get RPC URL and creates wallets)
+```
+
+```bash
+npx hardhat accounts (View the wallets by running)
 ```
 
 This will start a local Ethereum network on `http://127.0.0.1:8545` with predefined accounts and private keys.
